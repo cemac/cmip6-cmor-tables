@@ -50,6 +50,24 @@
             "ok_min_mean_abs": "", 
             "ok_max_mean_abs": ""
         }, 
+        "drydust": {
+            "frequency": "day",
+            "modeling_realm": "aerosol",
+            "standard_name": "tendency_of_atmosphere_mass_content_of_dust_to_dry_deposition",
+            "units": "kg m-2 s-1",
+            "cell_methods": "area: time: mean",
+            "cell_measures": "area: areacella",
+            "long_name": "dry deposition rate of dust",
+            "comment": "Dry deposition includes gravitational settling, impact scavenging, and turbulent deposition.",
+            "dimensions": "longitude latitude time",
+            "out_name": "drydust",
+            "type": "real",
+            "positive": "",
+            "valid_min": "",
+            "valid_max": "",
+            "ok_min_mean_abs": "",
+            "ok_max_mean_abs": ""
+        },
         "od440aer": {
             "frequency": "day", 
             "modeling_realm": "aerosol", 
@@ -102,6 +120,24 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
+            "ok_max_mean_abs": ""
+        },
+        "pr": {
+            "frequency": "day",
+            "modeling_realm": "atmos",
+            "standard_name": "precipitation_flux",
+            "units": "kg m-2 s-1",
+            "cell_methods": "area: time: mean",
+            "cell_measures": "area: areacella",
+            "long_name": "Precipitation",
+            "comment": "includes both liquid and solid phases",
+            "dimensions": "longitude latitude time",
+            "out_name": "pr",
+            "type": "real",
+            "positive": "",
+            "valid_min": "",
+            "valid_max": "",
+            "ok_min_mean_abs": "",
             "ok_max_mean_abs": ""
         }, 
         "ps": {
