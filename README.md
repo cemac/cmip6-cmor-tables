@@ -1,4 +1,4 @@
-# cmip6-cmor-tables
+# CRESCENDO-cmip6-cmor-tables
 
 Note:
 ----
