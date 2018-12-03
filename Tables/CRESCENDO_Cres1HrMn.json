@@ -2,7 +2,7 @@
     "Header": {
         "data_specs_version": "01.00.27", 
         "cmor_version": "3.3", 
-        "table_id": "Table CresAER1HrMn", 
+        "table_id": "Table Cres1HrMn", 
         "realm": "aerosol", 
         "table_date": "30 July 2018", 
         "missing_value": "1e20", 
