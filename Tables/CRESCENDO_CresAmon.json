@@ -1,0 +1,36 @@
+{
+    "Header": {
+        "data_specs_version": "01.00.27", 
+        "cmor_version": "3.3", 
+        "table_id": "Table CresAmon", 
+        "realm": "aerosol", 
+        "table_date": "30 July 2018", 
+        "missing_value": "1e20", 
+        "int_missing_value": "-999", 
+        "product": "model-output", 
+        "approx_interval": "30.00000", 
+        "generic_levels": "alevel alevhalf", 
+        "mip_era": "CRESCENDO", 
+        "Conventions": "CF-1.7 CMIP-6.2"
+    }, 
+    "variable_entry": {
+        "pastureFrac": {
+            "frequency": "mon",
+            "modeling_realm": "land",
+            "standard_name": "pasture_cover_fraction",
+            "units": "%",
+            "cell_methods": "area: mean where land over all_area_types time: mean",
+            "cell_measures": "area: areacella",
+            "long_name": "Percentage of Land which is Anthropogenic Pasture",
+            "comment": "Percentage of entire grid cell that is covered by anthropogenic pasture.",
+            "dimensions": "longitude latitude time typepasture",
+            "out_name": "pastureFrac",
+            "type": "real",
+            "positive": "",
+            "valid_min": "",
+            "valid_max": "",
+            "ok_min_mean_abs": "",
+            "ok_max_mean_abs": ""
+        }, 
+    }
+}
