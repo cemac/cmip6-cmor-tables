@@ -86,6 +86,24 @@
             "ok_min_mean_abs": "",
             "ok_max_mean_abs": ""
         },
+        "emimono": {
+            "frequency": "6hrPt",
+            "modeling_realm": "aerosol",
+            "standard_name": "tendency_of_atmosphere_mass_content_of_monoterpene_due_to_emission",
+            "units": "kg m-2 s-1",
+            "cell_methods": "area: time: point",
+            "cell_measures": "area: areacella",
+            "long_name": "total emission rate of monoterpene",
+            "comment": "Integrate 3D emission field vertically to 2d field",
+            "dimensions": "longitude latitude time1",
+            "out_name": "emimono",
+            "type": "real",
+            "positive": "",
+            "valid_min": "",
+            "valid_max": "",
+            "ok_min_mean_abs": "",
+            "ok_max_mean_abs": ""
+        },
         "emioa": {
             "frequency": "6hrPt",
             "modeling_realm": "aerosol",
@@ -284,6 +302,24 @@
             "ok_min_mean_abs": "",
             "ok_max_mean_abs": ""
         },
+        "sfmono": {
+            "frequency": "6hrPt",
+            "modeling_realm": "aerosol",
+            "standard_name": "mole_fraction_of_monoterpene_in_air_at_surface",
+            "units": "mol mol-1",
+            "cell_methods": "area: time: point",
+            "cell_measures": "area: areacella",
+            "long_name": "Monoterpene volume mixing ratio in surface layer",
+            "comment": "Mole fraction of monoterpene in air.",
+            "dimensions": "longitude latitude time1",
+            "out_name": "sfmono",
+            "type": "real",
+            "positive": "",
+            "valid_min": "",
+            "valid_max": "",
+            "ok_min_mean_abs": "",
+            "ok_max_mean_abs": ""
+        },
         "uas": {
             "frequency": "6hrPt",
             "modeling_realm": "atmos",
@@ -322,3 +358,4 @@
         }
     }
 }
+
